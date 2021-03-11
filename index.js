@@ -1,0 +1,1 @@
+var copyText = document.getElementById("spam1");
