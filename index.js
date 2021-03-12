@@ -1,1 +1,5 @@
-var copyText = document.getElementById("spam1");
+function dashboard() {
+
+    health.insertAdjacentHTML('beforeEnd', ' yes')
+
+}
