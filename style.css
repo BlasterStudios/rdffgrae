@@ -21,27 +21,74 @@ body, html {
     font: 400 14px/1.5 Segoe UI,system-ui,-apple-system,sans-serif;
 }}
 
-.btn{
-  width: 120px;
-  height: 45px;
-  background-color: red;
+.dashboard{
+  width: 300px;
+  height: 380px;
+  background: #000;
+  color: #fff;
+  position: fixed;
+  top: 17%;
+  left: 50%;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  overflow: hidden;
+}
+
+.srvselector {
+  width: 320px;
+  height: 380px;
+  background: #000;
+  color: #fff;
+  position: fixed;
+  top: 17%;
+  left: 25%;
+  box-sizing: border-box;
+  padding: 60px 30px;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.srvselector p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.srvselector input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.srvselector input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.srvselector input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
   border-radius: 20px;
-  border: 2px solid red;
-  transition: background-color 90ms;
 }
-.btn:hover {
-  background-color: rgb(247, 70, 70);
-  border: 2px solid rgb(247, 70, 70);
-}
-.btn2{
-  width: 120px;
-  height: 45px;
-  background-color: red;
-  border-radius: 20px;
-  border: 2px solid red;
-  transition: background-color 90ms;
-}
-.btn2:hover {
-  background-color: rgb(247, 70, 70);
-  border: 2px solid rgb(247, 70, 70);
+.srvselector input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
 }
